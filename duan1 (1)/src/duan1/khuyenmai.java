@@ -45,7 +45,6 @@ public class khuyenmai extends javax.swing.JInternalFrame {
         btnReset = new javax.swing.JButton();
         jScrollPane3 = new javax.swing.JScrollPane();
         tblPromo = new javax.swing.JTable();
-        jRadioButton1 = new javax.swing.JRadioButton();
 
         jPanel1.setBackground(new java.awt.Color(214, 226, 238));
 
@@ -117,16 +116,12 @@ public class khuyenmai extends javax.swing.JInternalFrame {
         });
         jScrollPane3.setViewportView(tblPromo);
 
-        jRadioButton1.setText("jRadioButton1");
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(jRadioButton1)
-                .addGap(38, 38, 38)
+                .addGap(156, 156, 156)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 655, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -156,9 +151,7 @@ public class khuyenmai extends javax.swing.JInternalFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(52, 52, 52)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel37)
-                    .addComponent(jRadioButton1))
+                .addComponent(jLabel37)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel38)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -179,7 +172,7 @@ public class khuyenmai extends javax.swing.JInternalFrame {
                     .addComponent(btnReset))
                 .addGap(36, 36, 36)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(95, Short.MAX_VALUE))
+                .addContainerGap(97, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -228,7 +221,6 @@ public class khuyenmai extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTable tblPromo;
     private javax.swing.JTextField txtDis;
